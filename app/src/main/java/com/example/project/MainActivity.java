@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
         categoryList.add(new Category(8,R.drawable.ic_home_veggies));
         setCategoryRecycler(categoryList);
 
+
+
         recentlyViewedList = new ArrayList<>();
         recentlyViewedList.add(new RecentlyViewed("Watermelon", "Watermelon has high water content and also provides some fiber.", "₹ 80", "1", "KG", R.drawable.card4,R.drawable.b4));
         recentlyViewedList.add(new RecentlyViewed("Papaya", "Papayas are spherical or pear-shaped fruits that can be as long as 20 inches.", "₹ 85", "1", "KG", R.drawable.card3,R.drawable.b3));
