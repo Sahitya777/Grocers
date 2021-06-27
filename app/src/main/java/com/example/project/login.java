@@ -88,6 +88,7 @@ public class login extends AppCompatActivity implements View.OnClickListener {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
+                    progressBar.setVisibility(View.GONE);
                     startActivity(new Intent(login.this,MainActivity.class));
 
                 }
